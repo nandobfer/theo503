@@ -6,6 +6,7 @@ export class Theo {
 
     constructor() {
         this.url = "https://admin.agencyboz.com"
+        console.log(`initializing theo503 for ${this.url}`)
     }
 
     async test() {
