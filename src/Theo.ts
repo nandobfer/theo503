@@ -25,6 +25,17 @@ export class Theo {
         const datetime = new Date()
         console.log('errored, sending mail')
         const text = `${datetime.toLocaleDateString('pt-br')}\n\n`
-        sendMail(['fernando@agenciaboz.com.br', 'mizael@agenciaboz.com.br'], `Servidor morreu - ${text}`, text)
+        sendMail(
+            [
+                "fernando@agenciaboz.com.br",
+                "mizael@agenciaboz.com.br",
+                "luiz@agenciaboz.com.br",
+                "vih@agenciaboz.com.br",
+                "alfredo@agenciaboz.com.br",
+                "ildo@agenciaboz.com.br",
+            ],
+            `Servidor morreu - ${text}`,
+            text
+        )
     }
 }
