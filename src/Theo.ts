@@ -23,8 +23,8 @@ export class Theo {
 
     on503() {
         const datetime = new Date()
-        console.log('errored, sending mail')
-        const text = `${datetime.toLocaleDateString('pt-br')}\n\n`
+        const text = `${datetime.toLocaleDateString("pt-br")}\n\n`
+        console.log(`${text} - errored, sending mail`)
         sendMail(
             [
                 "fernando@agenciaboz.com.br",
