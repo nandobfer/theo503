@@ -5,7 +5,7 @@ export class Theo {
     url: string
 
     constructor() {
-        this.url = "https://admin.agencyboz.com"
+        this.url = "https://portal.casaludica.com.br/entrar/"
         console.log(`initializing theo503 for ${this.url}`)
     }
 
